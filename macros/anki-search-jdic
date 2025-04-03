@@ -1,0 +1,54 @@
+Delay 1
+#ButtonPress 1
+#ButtonRelease 1
+#ButtonPress 1
+#ButtonRelease 1
+KeyStrPress Control_L
+KeyStrPress c
+KeyStrRelease c
+KeyStrRelease Control_L
+Delay 1
+
+# Switch to the browser
+KeyStrPress Super_L
+KeyStrPress 1
+KeyStrRelease 1
+KeyStrRelease Super_L
+#Delay 1
+
+# Set focus to the first tab
+KeyStrPress Alt_L
+KeyStrPress 1
+KeyStrRelease 1
+KeyStrRelease Alt_L
+Delay 1
+
+# Move to the top
+#KeyStrPress Home
+#KeyStrRelease Home
+#Delay 1
+
+# Set focus to the search tab
+#MotionNotify 1535 511
+#ButtonPress 1
+#ButtonRelease 1
+
+KeyStrPress d
+dKeyStrRelease d
+KeyStrPress BackSpace
+KeyStrRelease BackSpace
+
+KeyStrPress Control_L
+#KeyStrPress a
+#KeyStrRelease a
+KeyStrPress v
+KeyStrRelease v
+KeyStrRelease Control_L
+KeyStrPress Return
+KeyStrRelease Return
+
+# Click on the first item of the search
+Delay 1
+MotionNotify 871 905
+#ButtonPress 1
+#ButtonRelease 1

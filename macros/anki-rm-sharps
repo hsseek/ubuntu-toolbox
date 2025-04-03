@@ -1,0 +1,100 @@
+# Replace color="#123456" with color="123456"
+
+Delay 1
+
+#Search
+KeyStrPress Control_L
+KeyStrPress f
+KeyStrRelease f
+KeyStrRelease Control_L
+KeyStrPress r
+KeyStrRelease r
+KeyStrPress equal
+KeyStrRelease equal
+KeyStrPress backslash
+KeyStrRelease backslash
+KeyStrPress Shift_L
+KeyStrPress apostrophe
+KeyStrRelease apostrophe
+KeyStrPress 3
+KeyStrRelease 3
+KeyStrRelease Shift_L
+KeyStrPress Return
+KeyStrRelease Return
+Delay 1
+
+#Select All
+KeyStrPress Control_L
+KeyStrPress Alt_L
+KeyStrPress a
+KeyStrRelease a
+
+#Launch the Find and Replace window
+KeyStrPress Control_L
+KeyStrPress Alt_L
+KeyStrPress f
+KeyStrRelease f
+KeyStrRelease Alt_L
+KeyStrRelease Control_L
+Delay 1
+
+KeyStrPress c
+KeyStrRelease c
+KeyStrPress o
+KeyStrRelease o
+KeyStrPress l
+KeyStrRelease l
+KeyStrPress o
+KeyStrRelease o
+KeyStrPress r
+KeyStrRelease r
+KeyStrPress equal
+KeyStrRelease equal
+KeyStrPress Shift_L
+KeyStrPress apostrophe
+KeyStrRelease apostrophe
+KeyStrPress 3
+KeyStrRelease 3
+KeyStrRelease Shift_L
+KeyStrPress Tab
+KeyStrRelease Tab
+KeyStrPress c
+KeyStrRelease c
+KeyStrPress o
+KeyStrRelease o
+KeyStrPress l
+KeyStrRelease l
+KeyStrPress o
+KeyStrRelease o
+KeyStrPress r
+KeyStrRelease r
+KeyStrPress equal
+KeyStrRelease equal
+KeyStrPress Shift_L
+KeyStrPress apostrophe
+KeyStrRelease apostrophe
+KeyStrRelease Shift_L
+KeyStrPress Return
+KeyStrRelease Return
+Delay 1
+
+#Close the popup dialogue
+KeyStrPress Return
+KeyStrRelease Return
+
+#Close the browser
+KeyStrPress Escape
+KeyStrRelease Escape
+Delay 1
+
+KeyStrPress s
+KeyStrRelease s
+#Close the app
+#KeyStrPress Alt_L
+#KeyStrPress f
+#KeyStrRelease f
+#KeyStrRelease Alt_L
+#Delay 1
+#KeyStrPress x
+#KeyStrRelease x
+

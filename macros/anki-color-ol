@@ -1,0 +1,288 @@
+Delay 1
+
+# Open the script window
+KeyStrPress Control_L
+KeyStrPress Shift_L
+KeyStrPress x
+KeyStrRelease x
+KeyStrRelease Shift_L
+KeyStrRelease Control_L
+Delay 1
+
+# Copy the script
+KeyStrPress Control_L
+KeyStrPress a
+KeyStrRelease a
+KeyStrPress c
+KeyStrRelease c
+KeyStrRelease Control_L
+
+# Activate the Gedit
+KeyStrPress Super_L
+KeyStrPress 5
+KeyStrRelease 5
+KeyStrRelease Super_L
+Delay 1
+
+# Paste the script and open the Find and Replace window
+KeyStrPress Hangul
+KeyStrRelease Hangul
+KeyStrPress Control_L
+KeyStrPress a
+KeyStrRelease a
+KeyStrPress v
+KeyStrRelease v
+KeyStrPress h
+KeyStrRelease h
+KeyStrRelease Control_L
+Delay 1
+
+# Type the script to replace
+KeyStrPress Shift_L
+KeyStrPress comma
+KeyStrRelease comma
+KeyStrRelease Shift_L
+KeyStrPress slash
+KeyStrRelease slash
+KeyStrPress f
+KeyStrRelease f
+KeyStrPress o
+KeyStrRelease o
+KeyStrPress n
+KeyStrRelease n
+KeyStrPress t
+KeyStrRelease t
+KeyStrPress Shift_L
+KeyStrPress period
+KeyStrRelease period
+KeyStrRelease Shift_L
+KeyStrPress Shift_L
+KeyStrPress comma
+KeyStrRelease comma
+KeyStrRelease Shift_L
+KeyStrPress slash
+KeyStrRelease slash
+KeyStrPress l
+KeyStrRelease l
+KeyStrPress i
+KeyStrRelease i
+KeyStrPress Shift_L
+KeyStrPress period
+KeyStrRelease period
+KeyStrRelease Shift_L
+
+# Move focus to the line below 
+KeyStrPress Tab
+KeyStrRelease Tab
+KeyStrPress Tab
+KeyStrRelease Tab
+Delay 1
+
+# Script to insert
+KeyStrPress Shift_L
+KeyStrPress comma
+KeyStrRelease comma
+KeyStrRelease Shift_L
+KeyStrPress slash
+KeyStrRelease slash
+KeyStrPress l
+KeyStrRelease l
+KeyStrPress i
+KeyStrRelease i
+KeyStrPress Shift_L
+KeyStrPress period
+KeyStrRelease period
+KeyStrPress comma
+KeyStrRelease comma
+KeyStrRelease Shift_L
+KeyStrPress slash
+KeyStrRelease slash
+KeyStrPress f
+KeyStrRelease f
+KeyStrPress o
+KeyStrRelease o
+KeyStrPress n
+KeyStrRelease n
+KeyStrPress t
+KeyStrRelease t
+KeyStrPress Shift_L
+KeyStrPress period
+KeyStrRelease period
+KeyStrRelease Shift_L
+
+# Replace all
+KeyStrPress Alt_L
+KeyStrPress a
+KeyStrRelease a
+KeyStrRelease Alt_L
+Delay 1
+
+# Delete all the script as it has been replaced
+KeyStrPress Control_L
+KeyStrPress a
+KeyStrRelease a
+KeyStrRelease Control_L
+KeyStrPress BackSpace
+KeyStrRelease BackSpace
+
+# The script to insert
+KeyStrPress Shift_L
+KeyStrPress comma
+KeyStrRelease comma
+KeyStrRelease Shift_L
+KeyStrPress f
+KeyStrRelease f
+KeyStrPress o
+KeyStrRelease o
+KeyStrPress n
+KeyStrRelease n
+KeyStrPress t
+KeyStrRelease t
+KeyStrPress space
+KeyStrRelease space
+KeyStrPress c
+KeyStrRelease c
+KeyStrPress o
+KeyStrRelease o
+KeyStrPress l
+KeyStrRelease l
+KeyStrPress o
+KeyStrRelease o
+KeyStrPress r
+KeyStrRelease r
+KeyStrPress equal
+KeyStrRelease equal
+KeyStrPress Shift_L
+KeyStrPress apostrophe
+KeyStrRelease apostrophe
+KeyStrRelease Shift_L
+KeyStrPress e
+KeyStrRelease e
+KeyStrPress d
+KeyStrRelease d
+KeyStrPress b
+KeyStrRelease b
+KeyStrPress b
+KeyStrRelease b
+KeyStrPress 9
+KeyStrRelease 9
+KeyStrPress 9
+KeyStrRelease 9
+KeyStrPress Shift_L
+KeyStrPress apostrophe
+KeyStrRelease apostrophe
+KeyStrPress period
+KeyStrRelease period
+KeyStrPress comma
+KeyStrRelease comma
+KeyStrRelease Shift_L
+KeyStrPress l
+KeyStrRelease l
+KeyStrPress i
+KeyStrRelease i
+KeyStrPress Shift_L
+KeyStrPress period
+KeyStrRelease period
+
+# Move the focus to the line above
+KeyStrPress Tab
+KeyStrRelease Tab
+KeyStrPress Tab
+KeyStrRelease Tab
+Delay 1
+
+# The script to be replaced
+KeyStrPress comma
+KeyStrRelease comma
+KeyStrRelease Shift_L
+KeyStrPress l
+KeyStrRelease l
+KeyStrPress i
+KeyStrRelease i
+KeyStrPress Shift_L
+KeyStrPress period
+KeyStrRelease period
+KeyStrPress comma
+KeyStrRelease comma
+KeyStrRelease Shift_L
+KeyStrPress f
+KeyStrRelease f
+KeyStrPress o
+KeyStrRelease o
+KeyStrPress n
+KeyStrRelease n
+KeyStrPress t
+KeyStrRelease t
+KeyStrPress space
+KeyStrRelease space
+KeyStrPress c
+KeyStrRelease c
+KeyStrPress o
+KeyStrRelease o
+KeyStrPress l
+KeyStrRelease l
+KeyStrPress o
+KeyStrRelease o
+KeyStrPress r
+KeyStrRelease r
+KeyStrPress equal
+KeyStrRelease equal
+KeyStrPress Shift_L
+KeyStrPress apostrophe
+KeyStrRelease apostrophe
+KeyStrRelease Shift_L
+KeyStrPress e
+KeyStrRelease e
+KeyStrPress 0
+KeyStrRelease 0
+KeyStrPress f
+KeyStrRelease f
+KeyStrPress f
+KeyStrRelease f
+KeyStrPress 3
+KeyStrRelease 3
+KeyStrPress 3
+KeyStrRelease 3
+KeyStrPress Shift_L
+KeyStrPress apostrophe
+KeyStrRelease apostrophe
+KeyStrPress period
+KeyStrRelease period
+KeyStrRelease Shift_L
+
+# Replace all
+KeyStrPress Alt_L
+KeyStrPress a
+KeyStrRelease a
+KeyStrRelease Alt_L
+Delay 1
+
+# Close the Find and Replace window
+KeyStrPress Escape
+KeyStrRelease Escape
+
+# Copy the replaced script to Anki
+KeyStrPress Control_L
+KeyStrPress a
+KeyStrRelease a
+KeyStrPress c
+KeyStrRelease c
+KeyStrRelease Control_L
+KeyStrPress Alt_L
+KeyStrPress Tab
+KeyStrRelease Tab
+KeyStrRelease Alt_L
+Delay 1
+
+KeyStrPress Control_L
+KeyStrPress a
+KeyStrRelease a
+KeyStrPress v
+KeyStrRelease v
+KeyStrRelease Control_L
+KeyStrPress Escape
+KeyStrRelease Escape
+Delay 1
+
+KeyStrPress Hangul
+KeyStrRelease Hangul

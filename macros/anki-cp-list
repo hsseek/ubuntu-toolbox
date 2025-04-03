@@ -1,0 +1,81 @@
+Delay 1
+KeyStrPress Control_L
+KeyStrPress Shift_L
+KeyStrPress x
+KeyStrRelease x
+KeyStrRelease Shift_L
+KeyStrRelease Control_L
+
+KeyStrPress Control_L
+KeyStrPress a
+KeyStrRelease a
+KeyStrPress c
+KeyStrRelease c
+KeyStrRelease Control_L
+
+KeyStrPress Control_L
+KeyStrPress Shift_L
+KeyStrPress x
+KeyStrRelease x
+KeyStrRelease Shift_L
+KeyStrRelease Control_L
+Delay 1
+
+#KeyStrPress BackSpace
+#KeyStrRelease BackSpace
+
+KeyStrPress Tab
+KeyStrRelease Tab
+KeyStrPress Control_L
+KeyStrPress Shift_L
+KeyStrPress x
+KeyStrRelease x
+KeyStrRelease Shift_L
+KeyStrRelease Control_L
+Delay 1
+
+# Paste the source.
+KeyStrPress Control_L
+KeyStrPress v
+KeyStrRelease v
+KeyStrRelease Control_L
+
+# Add <b></b> tag.
+KeyStrPress Hangul
+KeyStrRelease Hangul
+
+KeyStrPress Shift_L
+KeyStrPress comma
+KeyStrRelease comma
+KeyStrRelease Shift_L
+KeyStrPress slash
+KeyStrRelease slash
+KeyStrPress Left
+KeyStrRelease Left
+KeyStrPress b
+KeyStrRelease b
+KeyStrPress Control_L
+KeyStrPress Home
+KeyStrRelease Home
+KeyStrRelease Control_L
+#KeyStrPress Shift_L
+#KeyStrPress comma
+#KeyStrRelease comma
+#KeyStrRelease Shift_L
+#KeyStrPress b
+#KeyStrRelease b
+#KeyStrPress Shift_L
+#KeyStrPress period
+#KeyStrRelease period
+#KeyStrRelease Shift_L
+
+KeyStrPress Hangul
+KeyStrRelease Hangul
+
+# Close the editor.
+KeyStrPress Control_L
+KeyStrPress Shift_L
+KeyStrPress x
+KeyStrRelease x
+KeyStrRelease Shift_L
+KeyStrRelease Control_L

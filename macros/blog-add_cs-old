@@ -1,0 +1,101 @@
+Delay 1
+# Copy the reference number
+KeyStrPress Control_L
+KeyStrPress Shift_L
+KeyStrPress Left
+KeyStrRelease Left
+KeyStrRelease Shift_L
+Delay 1
+KeyStrPress c
+KeyStrRelease c
+KeyStrRelease Control_L
+
+# Search the clipboard contents on casenote.kr
+# KeyStrPress Control_L
+# KeyStrPress t
+# KeyStrRelease t
+# KeyStrPress v
+# KeyStrRelease v
+# KeyStrPress a
+# KeyStrRelease a
+# Delay 1
+# KeyStrPress c
+# KeyStrRelease c
+# KeyStrRelease Control_L
+# KeyStrPress Alt_L
+# KeyStrPress Shift_L
+# KeyStrPress c
+# KeyStrRelease c
+# KeyStrRelease Alt_L
+# KeyStrRelease Shift_L
+# Delay 2
+
+# Copy URL
+# KeyStrPress Control_L
+# KeyStrPress l
+# KeyStrRelease l
+# KeyStrPress c
+# KeyStrRelease c
+# KeyStrRelease Control_L
+
+# Get back to the blog tab
+# KeyStrPress Alt_L
+# KeyStrPress 1
+# KeyStrRelease 1
+# KeyStrRelease Alt_L
+# Delay 1
+
+# Click the hyperlink button
+MotionNotify 668 233
+ButtonPress 1
+ButtonRelease 1
+Delay 1
+
+# Focus then paste the url
+KeyStrPress Tab
+KeyStrRelease Tab
+Delay 1
+KeyStrPress Control_L
+KeyStrPress v
+KeyStrRelease v
+KeyStrRelease Control_L
+# KeyStrPress Return
+# KeyStrRelease Return
+KeyStrPress Alt_L
+KeyStrPress v
+KeyStrRelease v
+KeyStrRelease Alt_L
+Delay 1
+KeyStrPress Down
+KeyStrRelease Down
+KeyStrPress Return
+KeyStrRelease Return
+Delay 1
+KeyStrPress Left
+KeyStrRelease Left
+KeyStrPress Control_L
+KeyStrPress v
+KeyStrRelease v
+KeyStrRelease Control_L
+KeyStrPress Return
+KeyStrRelease Return
+
+
+# Close the opened tabs and return to tab 1
+# KeyStrPress Alt_L
+# KeyStrPress 9
+# KeyStrRelease 9
+# KeyStrRelease Alt_L
+# KeyStrPress Control_L
+# KeyStrPress w
+# KeyStrRelease w
+# Delay 1
+# KeyStrPress w
+# KeyStrRelease w
+# KeyStrRelease Control_L
+# KeyStrPress Alt_L
+# KeyStrPress 1
+# KeyStrRelease 1
+# KeyStrRelease Alt_L
+
+

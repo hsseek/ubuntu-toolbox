@@ -1,0 +1,107 @@
+Delay 1
+KeyStrPress Hangul
+KeyStrRelease Hangul
+
+# Make space.
+KeyStrPress Return
+KeyStrRelease Return
+Delay 1
+
+KeyStrPress Left
+KeyStrRelease Left
+
+# Type "anki" and select.
+KeyStrPress a
+KeyStrRelease a
+KeyStrPress n
+KeyStrRelease n
+KeyStrPress k
+KeyStrRelease k
+KeyStrPress i
+KeyStrRelease i
+KeyStrPress Shift_L
+KeyStrPress Left
+KeyStrRelease Left
+KeyStrPress Left
+KeyStrRelease Left
+KeyStrPress Left
+KeyStrRelease Left
+KeyStrPress Left
+KeyStrRelease Left
+KeyStrRelease Shift_L
+
+# Add hyperlink interface.
+KeyStrPress Control_L
+KeyStrPress comma
+KeyStrRelease comma
+KeyStrPress k
+KeyStrRelease k
+KeyStrRelease Control_L
+
+# Open clipboard manager to retrieve the root url.
+# https://ankiuser.net/edit/
+KeyStrPress Alt_L
+KeyStrPress v
+KeyStrRelease v
+KeyStrRelease Alt_L
+Delay 1
+
+KeyStrPress Down
+KeyStrRelease Down
+KeyStrPress Return
+KeyStrRelease Return
+Delay 1
+
+# Paste the root url.
+KeyStrPress Control_L
+KeyStrPress v
+KeyStrRelease v
+KeyStrRelease Control_L
+
+# Switch to the Anki window open the card information popup.
+KeyStrPress Alt_L
+KeyStrPress Tab
+KeyStrRelease Tab
+KeyStrRelease Alt_L
+Delay 1
+
+KeyStrPress Alt_L
+KeyStrPress i
+KeyStrRelease i
+KeyStrRelease Alt_L
+Delay 1
+
+# Copy the Note ID.
+MotionNotify 951 419
+ButtonPress 1
+ButtonRelease 1
+ButtonPress 1
+ButtonRelease 1
+Delay 1
+
+KeyStrPress Control_L
+KeyStrPress c
+KeyStrRelease c
+KeyStrRelease Control_L
+
+# Switch back to the document.
+KeyStrPress Escape
+KeyStrRelease Escape
+KeyStrPress Alt_L
+KeyStrPress Tab
+KeyStrRelease Tab
+KeyStrRelease Alt_L
+Delay 1
+
+# Paste the Note ID and finish the hyperlink.
+KeyStrPress Control_L
+KeyStrPress v
+KeyStrRelease v
+KeyStrRelease Control_L
+KeyStrPress Return
+KeyStrRelease Return
+
+KeyStrPress Down
+KeyStrRelease Down
+KeyStrPress Hangul
+KeyStrRelease Hangul

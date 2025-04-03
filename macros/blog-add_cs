@@ -1,0 +1,39 @@
+Delay 1
+#Click the hyperlink button
+MotionNotify 668 233
+ButtonPress 1
+ButtonRelease 1
+#Delay 1
+
+#Focus then paste the url
+KeyStrPress Tab
+KeyStrRelease Tab
+Delay 1
+KeyStrPress Control_L
+KeyStrPress v
+KeyStrRelease v
+KeyStrRelease Control_L
+
+#Open clipboard manager
+KeyStrPress Alt_L
+KeyStrPress v
+KeyStrRelease v
+KeyStrRelease Alt_L
+Delay 1
+
+# Select the first Favorite item.
+KeyStrPress Down
+KeyStrRelease Down
+KeyStrPress Return
+KeyStrRelease Return
+#Delay 1
+
+#Paste the selected item.
+KeyStrPress Left
+KeyStrRelease Left
+KeyStrPress Control_L
+KeyStrPress v
+KeyStrRelease v
+KeyStrRelease Control_L
+KeyStrPress Return
+KeyStrRelease Return
