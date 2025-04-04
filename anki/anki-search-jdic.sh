@@ -1,2 +1,3 @@
 #!/bin/bash
-xmacroplay "$DISPLAY" < ~/macros/anki-search-jdic
+SCRIPT_DIR="$(dirname "$(readlink -f "$0")")"
+xmacroplay "$DISPLAY" < "$SCRIPT_DIR/macros/anki-search-jdic

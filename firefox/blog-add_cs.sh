@@ -1,2 +1,3 @@
 #!/bin/bash
-xmacroplay "$DISPLAY" < ~/macros/blog-add_cs
+SCRIPT_DIR="$(dirname "$(readlink -f "$0")")"
+xmacroplay "$DISPLAY" < "$SCRIPT_DIR/macros/blog-add_cs
