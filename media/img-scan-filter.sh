@@ -1,18 +1,33 @@
 #!/bin/bash
 
-# Create a directory to store processed images
-mkdir -p processed
+# Usage: img-scan-filter.sh [target-directory]
+# Default: current directory
 
-# Loop through all JPG and PNG files in the current directory
-for img in *.jpg *.png; do
-    # Ensure the file exists (in case no matching files are found)
+TARGET_DIR="${1:-.}"
+OUTPUT_DIR="$TARGET_DIR/output"
+
+mkdir -p "$OUTPUT_DIR"
+
+echo "Processing images in '$TARGET_DIR' → output to '$OUTPUT_DIR'..."
+
+cd "$TARGET_DIR" || exit 1
+
+EXTENSIONS=("*.jpg" "*.jpeg" "*.png")
+
+for ext in "${EXTENSIONS[@]}"; do
+  for img in $ext; do
     [ -f "$img" ] || continue
-
-    # Apply brightness and contrast adjustment
-    convert "$img" -brightness-contrast -5x100 "processed/$img"
-
-    echo "Processed: $img"
+    echo "  → $img"
+    convert "$img" \
+      -auto-level \
+      -brightness-contrast 0x95 \
+      -sharpen 0x2 \
+      -threshold 10% \
+      -resize 1080x \
+      -transparent white \
+      "$OUTPUT_DIR/$img"
+  done
 done
 
-echo "All images processed and saved in the 'processed' folder."
+echo "✅ Done."
 
